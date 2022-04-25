@@ -4,14 +4,30 @@ h1
     font-family: 'Roboto', sans-serif;
 }
 
+h2
+{
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 0;
+}
+
+li {
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
 #profile_pic
 {
     height: 350px;
+    border: solid;
+    border-color: rgb(164, 224, 237);
+    border-width: 5px;
 }
 
 .social-icon
 {
     height: 50px;
+    padding: 0px 10px; 
 }
 
 body
@@ -23,4 +39,28 @@ body
 a 
 {
     text-decoration: none;
+}
+
+.container {
+    /* Give the container a display of flex */
+    display: flex;
+
+    /* Set the direction to be row */
+    flex-direction: column;
+
+    /* Center the content in the middle */
+    justify-content: center;    /* horizontally centered */
+    align-items: center;        /* vertically centered */
+}
+
+.social_container {
+    /* Give the container a display of flex */
+    display: flex;
+
+    /* Set the direction to be row */
+    flex-direction: row;
+
+    /* Center the content in the middle */
+    justify-content: center;    /* horizontally centered */
+    align-items: center;        /* vertically centered */
 }
