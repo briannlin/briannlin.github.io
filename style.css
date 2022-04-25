@@ -1,0 +1,26 @@
+h1
+{
+    font-size: 5em;
+}
+
+#profile_pic
+{
+    height: 350px;
+}
+
+.social-icon
+{
+    height: 50px;
+}
+
+body
+{
+    background-color: rgb(167, 237, 235);
+    color: goldenrod;
+}
+
+a 
+{
+    color: brown;
+    text-decoration: none;
+}
